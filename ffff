@@ -1,0 +1,36 @@
+1)
+ import re 
+ result = re.search(r'GGGGGG')
+ print(rersult.group(0))
+
+
+2)
+import re
+result = re.sub(r'sdfGHJK')
+print(result)
+
+3)
+import re 
+result = re.findall(r'\w*','LIVE')
+print(result)
+
+4)
+import re 
+result = re.math('ho ho ho ')
+print(result.group(0))
+
+5)
+import re
+result = re.split(r'g','gop go0p gopp')
+print(result)
+
+6)
+
+mi = ['567890345678923456789']
+
+for val in mi.
+   if re.match(r'[65]{1}{0-6}{7}',val)and len(val)==10;
+         print('yes')
+    else:
+         print('no')
+   
